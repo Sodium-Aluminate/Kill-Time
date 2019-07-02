@@ -16,3 +16,9 @@ Nothing here.
 java -jar [Path-to-jar-file]
 ```
 其中，`[Path-to-jar-file]` 表示下载的文件的绝对或相对位置。
+
+
+# Licence | 许可
+Just *Do What The Fuck You Want To*.
+
+*爱咋咋的。*
