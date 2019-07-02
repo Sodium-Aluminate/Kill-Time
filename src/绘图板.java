@@ -260,7 +260,6 @@ public class 绘图板 {
                         if(e.getPoint().x<150&&e.getPoint().y<120) {
                             penStyleChooser.repaint();
                         }
-                        System.out.println(true);
                     }
 
 
