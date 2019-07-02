@@ -18,8 +18,6 @@ public class 绘图板 {
 
     public static void main(String[] AlPt) {
         SwingUtilities.invokeLater(() -> createAndShowGUI());
-
-
     }
 
     private static class CheckButtonStatus extends Thread{ // 此线程用于测试获得当前按钮（划掉） // 此线程用于获得当前按钮并甩到一个全局变量里。
@@ -178,6 +176,9 @@ public class 绘图板 {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     DrawsCollector.clear();
+                    randomColor.repaint();
+                    randomStroke.repaint();
+                    penStyleChooser.repaint();
                     mainJPanel.repaint();
                 }
             });
@@ -322,8 +323,6 @@ public class 绘图板 {
             lines = new ArrayList<>();
             colors = new ArrayList<>();
             strokes = new ArrayList<>();
-            currentColor = new Color(0x0099C5);
-            currentStroke = new BasicStroke(1f);
             currentLine = null;
             newLine();
         }
