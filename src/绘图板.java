@@ -109,7 +109,7 @@ public class 绘图板 {
         // 清空按钮 - 准备
         JButton clearBtn;
         {
-            clearBtn = new JButton("clear");
+            clearBtn = new JButton("Clear");
             clearBtn.setBounds(20,320,80,30);
             contentPane.add(clearBtn);
         }
