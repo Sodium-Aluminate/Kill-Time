@@ -129,7 +129,7 @@ public class 绘图板 {
             contentPane.add(randomStroke);
         }
 
-        // 绘图版本体
+        // 绘图板本体
         JPanel mainJPanel;
         {
             mainJPanel = new JPanel(){
